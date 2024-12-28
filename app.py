@@ -5,7 +5,7 @@ init_db()
 app = Flask(__name__)
 
 # Dynamic menu items
-menu = ["Pizza", "Pasta", "Salad", "Burger", "Fries"]
+menu = ['Pizza', 'Pasta', 'Salad', 'Burger', 'Fries']
 
 # Chat endpoint
 @app.route('/chat', methods=['POST'])
